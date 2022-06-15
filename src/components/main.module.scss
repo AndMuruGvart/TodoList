@@ -1,0 +1,156 @@
+
+
+.container {
+  max-width:550px;
+  margin: auto;
+}
+
+.App {
+  text-align: left;
+  margin: auto;
+}
+
+.App .item-todo {
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  word-break:break-all;
+  background-color: #fff;
+  color: #5F5F5F;
+  border-bottom: 2px solid #EBEBEB;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.App .item-todo .item-text {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.form-input {
+  display: flex;
+  text-align: left;
+  border-top: 2px solid #EBEBEB;
+  border-bottom: 2px solid #EBEBEB;
+  background: #fff;
+}
+
+.App input {
+  width:85%;
+  padding: 14px 16px 14px 5px;
+  border-radius: none;
+  border: none;
+  outline: none;
+}
+
+.App .button-create {
+  position: relative;
+  width: 40px;
+  padding: 14px 10px 14px 10px;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #5F5F5F;
+  background: transparent;
+}
+
+.App .item-todo .item-delete {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 22px;
+  position: relative;
+  left: -2px;
+  bottom: 5px;
+}
+
+.strike {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: line-through;
+  font-weight: 200;
+  color: #EADDDC;
+}
+
+.header-main-text {
+  width: 90%;
+  margin: 15px 0 15px 0;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 300;
+  color: #EADDDC;
+}
+
+.triangle {
+  position: absolute;
+  top: 9px;
+  left: 7px;
+  z-index: 5;
+  height:30px;
+  width:30px;
+  background-image: url('/images/triangle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%; 
+}
+
+.managing-panel-list {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.managing-panel-item {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: normal;
+}
+
+.managing-button {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: normal;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+
+.managing-button:hover {
+  border: 1px solid #5F5F5F;
+}
+
+.delete-button {
+  position: absolute;
+  top: 0px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: $neutral-0;
+  border: 2px solid #EADDDC;
+  border-radius: 100%;
+  background-image: url('/images/owners/check-repair.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.deleted {
+  position: absolute;
+  top: 0px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: $neutral-0;
+  border: 2px solid #EADDDC;
+  border-radius: 100%;
+
+}
